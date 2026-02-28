@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|c:\\users\\jilab\\onedrive\\documents\\github\\imdbsys32-3c\\simplecrud\\simplecrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80D8D206-56BB-4908-A49B-CE69C9A04FC3}|SimpleCRUD\\SimpleCRUD.csproj|solutionrelative:simplecrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "SimpleCRUD\\appsettings.json",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\appsettings.json",
+              "RelativeToolTip": "SimpleCRUD\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-28T11:14:14.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "SimpleCRUD\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-28T11:13:46.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "SimpleCRUD\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-28T11:13:38.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SimpleCRUD\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:13:31.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Models\\User.cs",
+              "RelativeToolTip": "SimpleCRUD\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:13:15.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SimpleCRUD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-28T11:14:15.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SimpleCRUD\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:13:21.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Program.cs",
+              "RelativeToolTip": "SimpleCRUD\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAABBwAkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T11:14:14.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "SimpleCRUD\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-28T11:14:03.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "SimpleCRUD\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-28T11:13:57.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SimpleCRUD\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jilab\\OneDrive\\Documents\\GitHub\\IMDBSYS32-3C\\SimpleCRUD\\SimpleCRUD\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "SimpleCRUD\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-28T11:13:52.268Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1329,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
