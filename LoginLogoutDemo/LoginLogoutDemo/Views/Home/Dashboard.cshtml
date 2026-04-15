@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Dashboard</h1>
+    <p class="lead">This page requires you to be <strong>logged in</strong> (any role).</p>
+
+    <div class="alert alert-success mt-4">
+        <h5>Welcome, @User.Identity?.Name!</h5>
+        <p>You are authenticated and can see this page because you have the <code>[Authorize]</code> attribute.</p>
+        <p>
+            Your roles:
+            @if (User.IsInRole("Admin"))
+            {
+                <span class="badge bg-danger">Admin</span>
+            }
+            @if (User.IsInRole("User"))
+            {
+                <span class="badge bg-primary">User</span>
+            }
+        </p>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+@model List<UserWithRolesViewModel>
+
+@using LoginLogoutDemo.Controllers
+
+@{
+    ViewData["Title"] = "Users with Roles";
+}
+
+<h2>Users &amp; Their Roles <small class="text-muted">(FK via AspNetUserRoles)</small></h2>
+<p class="text-muted">
+    This page uses <code>UserManager.GetRolesAsync()</code> which internally queries the
+    <code>AspNetUserRoles</code> junction table (FK: <code>UserId</code> → <code>AspNetUsers</code>,
+    <code>RoleId</code> → <code>AspNetRoles</code>).
+</p>
+
+<pre class="bg-light p-3 rounded"><code>// Query (behind the scenes):
+// SELECT r.Name FROM AspNetRoles r
+// INNER JOIN AspNetUserRoles ur ON r.Id = ur.RoleId
+// WHERE ur.UserId = @@userId
+var roles = await _userManager.GetRolesAsync(user);</code></pre>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>User Id (PK)</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Roles (via FK)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td><code>@user.UserId[..8]...</code></td>
+                <td>@user.FullName</td>
+                <td>@user.Email</td>
+                <td>
+                    @foreach (var role in user.Roles)
+                    {
+                        <span class="badge @(role == "Admin" ? "bg-danger" : "bg-primary") me-1">@role</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="mt-3">
+    <a asp-action="Roles" class="btn btn-outline-primary">View Roles Table</a>
+    <a asp-action="UserRoleDetails" class="btn btn-primary">View LINQ Join (FK Details)</a>
+</div>

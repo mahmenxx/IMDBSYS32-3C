@@ -1,0 +1,64 @@
+@model List<UserRoleDetailViewModel>
+
+@using LoginLogoutDemo.Controllers
+
+@{
+    ViewData["Title"] = "User-Role FK Join Details";
+}
+
+<h2>LINQ Join Across FK Tables</h2>
+<p class="text-muted">
+    This page demonstrates an explicit <strong>LINQ join</strong> across three tables connected by foreign keys:
+</p>
+
+<div class="alert alert-secondary">
+    <strong>FK Relationship:</strong><br />
+    <code>AspNetUsers</code> (PK: Id) ← <code>AspNetUserRoles</code> (FK: UserId, RoleId) → <code>AspNetRoles</code> (PK: Id)
+</div>
+
+<pre class="bg-light p-3 rounded"><code>// LINQ query joining 3 tables via FK:
+var details = await (
+    from user in _context.Users                                         // AspNetUsers
+    join userRole in _context.UserRoles on user.Id equals userRole.UserId   // AspNetUserRoles (junction)
+    join role in _context.Roles on userRole.RoleId equals role.Id           // AspNetRoles
+    select new UserRoleDetailViewModel
+    {
+        UserId          = user.Id,
+        FullName        = user.FullName,        // from AspNetUsers
+        Email           = user.Email,           // from AspNetUsers
+        RoleId          = role.Id,              // FK to AspNetRoles
+        RoleName        = role.Name,            // from AspNetRoles
+        RoleDescription = role.Description      // from AspNetRoles (custom column)
+    }
+).ToListAsync();</code></pre>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>User Id (FK)</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Role Id (FK)</th>
+            <th>Role Name</th>
+            <th>Role Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><code>@item.UserId[..8]...</code></td>
+                <td>@item.FullName</td>
+                <td>@item.Email</td>
+                <td><code>@item.RoleId</code></td>
+                <td><span class="badge @(item.RoleName == "Admin" ? "bg-danger" : "bg-primary")">@item.RoleName</span></td>
+                <td>@item.RoleDescription</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="mt-3">
+    <a asp-action="Roles" class="btn btn-outline-primary">View Roles Table</a>
+    <a asp-action="Users" class="btn btn-outline-primary">View Users &amp; Roles</a>
+</div>

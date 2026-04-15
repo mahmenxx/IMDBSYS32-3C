@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<div class="text-center">
+    <h1 class="display-4 text-danger">Admin Panel</h1>
+    <p class="lead">This page is restricted to users with the <strong>Admin</strong> role only.</p>
+
+    <div class="alert alert-warning mt-4">
+        <h5>Hello Admin, @User.Identity?.Name!</h5>
+        <p>You can see this page because you have the <code>[Authorize(Roles = "Admin")]</code> attribute.</p>
+        <p>Regular users who try to access this page will be redirected to the <strong>Access Denied</strong> page.</p>
+    </div>
+</div>

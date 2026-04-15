@@ -1,0 +1,36 @@
+@model List<LoginLogoutDemo.Models.ApplicationRole>
+
+@{
+    ViewData["Title"] = "Roles (AspNetRoles Table)";
+}
+
+<h2>Roles Table <small class="text-muted">(AspNetRoles)</small></h2>
+<p class="text-muted">This page queries the <code>ApplicationRole</code> entity directly — it maps to the <code>AspNetRoles</code> table.</p>
+
+<pre class="bg-light p-3 rounded"><code>// Query:
+var roles = await _context.Roles.ToListAsync();</code></pre>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>Id (PK)</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in Model)
+        {
+            <tr>
+                <td><code>@role.Id</code></td>
+                <td><span class="badge bg-info">@role.Name</span></td>
+                <td>@role.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="mt-3">
+    <a asp-action="Users" class="btn btn-primary">View Users &amp; Roles (FK)</a>
+    <a asp-action="UserRoleDetails" class="btn btn-outline-primary">View LINQ Join (FK Details)</a>
+</div>
