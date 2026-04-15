@@ -3,14 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
-
 namespace LoginLogoutDemo.Migrations
 {
-    /// <inheritdoc />
     public partial class InitialIdentity : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -163,11 +159,12 @@ namespace LoginLogoutDemo.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
-                values: new object[,]
-                {
-                    { "1", null, "Full access to all features including user management", "Admin", "ADMIN" },
-                    { "2", null, "Standard user with access to dashboard only", "User", "USER" }
-                });
+                values: new object[] { "1", "9eb18ad1-01a4-46a9-be10-926fe419b36a", "Full access to all features including user management", "Admin", "ADMIN" });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
+                values: new object[] { "2", "379b9d70-0dd7-4a2a-b55c-2329cbc974a6", "Standard user with access to dashboard only", "User", "USER" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -209,7 +206,6 @@ namespace LoginLogoutDemo.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
         }
 
-        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

@@ -17,10 +17,10 @@ namespace LoginLogoutDemo.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.23")
+                .HasAnnotation("ProductVersion", "6.0.36")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("LoginLogoutDemo.Models.ApplicationRole", b =>
                 {
@@ -55,6 +55,7 @@ namespace LoginLogoutDemo.Migrations
                         new
                         {
                             Id = "1",
+                            ConcurrencyStamp = "9eb18ad1-01a4-46a9-be10-926fe419b36a",
                             Description = "Full access to all features including user management",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
@@ -62,6 +63,7 @@ namespace LoginLogoutDemo.Migrations
                         new
                         {
                             Id = "2",
+                            ConcurrencyStamp = "379b9d70-0dd7-4a2a-b55c-2329cbc974a6",
                             Description = "Standard user with access to dashboard only",
                             Name = "User",
                             NormalizedName = "USER"
@@ -143,7 +145,7 @@ namespace LoginLogoutDemo.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("ClaimType")
                         .HasColumnType("nvarchar(max)");
@@ -168,7 +170,7 @@ namespace LoginLogoutDemo.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("ClaimType")
                         .HasColumnType("nvarchar(max)");
